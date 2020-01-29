@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Roboto:400,400i,700,700i|Rubik+Mono+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(127, 127, 127);
+  margin-bottom: 10px;
+}
+
+p {
+  color: rgb(48, 48, 48);
+  line-height: 1.6;
+}
+
+a {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  color: rgb(127, 127, 127);
+  text-decoration: none;
+}
+
+.author_text {
+  text-align: right;
+  font-style: italic;
+}
+
+.punchline {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.content-block {
+  margin-bottom: 40px;
+}
+
+.content-block a {
+  margin-top: 50px;
+}
+
+.link-content {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+
+.link-content:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
